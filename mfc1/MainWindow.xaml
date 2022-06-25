@@ -1,0 +1,18 @@
+﻿<Window x:Class="mfc1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mfc1"
+        mc:Ignorable="d"
+        Title="МФЦ Страхование" Height="288" Width="207" Icon="MTS.png">
+    <Grid>
+        <Button x:Name="vhod" Content="Вход" HorizontalAlignment="Center" Height="32" Margin="35,205,35,0" VerticalAlignment="Top" Width="129" Click="vhod_Click"/>
+        <TextBox x:Name="log" HorizontalAlignment="Center" Height="33" Margin="35,81,35,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+        <TextBox x:Name="pr" HorizontalAlignment="Center" Height="29" Margin="35,163,35,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Height="25" Margin="35,51,0,0" VerticalAlignment="Top" Width="83"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Height="25" Margin="35,124,0,108" VerticalAlignment="Center" Width="83"/>
+        <Label Content="Авторизация МФЦ Страхование" HorizontalAlignment="Center" Height="24" Margin="0,10,0,0" VerticalAlignment="Top" Width="187"/>
+
+    </Grid>
+</Window>
